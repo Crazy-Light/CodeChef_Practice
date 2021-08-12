@@ -1,0 +1,12 @@
+# cook your dish here
+T = int(input())
+for _ in range(T):
+    b=0
+    a = int(input())
+    #  a = input()
+    while (a!=0):
+         b = (b*10) + (a % 10)
+         a = a//10
+    print(b)
+    #  print(a[::-1])
+    
